@@ -71,6 +71,33 @@ aside {
   flex-direction: column;
 }
 
+#colonna-nav {
+  height: calc(100% - 100px);
+  margin-top: 26px;
+}
+
+.pulsanti {
+  color: white;
+  cursor: pointer;
+}
+
+.pulsanti img {
+  width: 27px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.mtop {
+  margin-top: 10px;
+  color: rgb(163 163 163);
+}
+
+.pulsanti strong {
+  font-size: 19px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
 /* MAIN */
 
 main {

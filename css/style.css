@@ -98,6 +98,37 @@ aside {
   vertical-align: middle;
 }
 
+/* playlist */
+
+#playlist h3 {
+  color: white;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+#plus {
+  background-color: rgb(163 163 163);
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+}
+
+#playlist strong {
+  color: rgb(163 163 163);
+  margin-left: 10px;
+}
+
+#playlist ul {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  line-height: 40px;
+}
+
 /* MAIN */
 
 main {

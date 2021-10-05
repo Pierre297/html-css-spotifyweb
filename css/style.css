@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -16,6 +20,10 @@
   height: calc(100vh - 100px);
 }
 
+a {
+  text-decoration: none;
+}
+
 /* HEADER PREMIUM BUTTON */
 
 header {
@@ -23,6 +31,24 @@ header {
   width: calc(100% - 250px);
   height: 100px;
   background-color: rgba(0, 0, 0, 0.89);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button {
+  width: 248px;
+  height: 54px;
+  text-decoration: none;
+  padding: 16px 30px 16px 30px;
+  border-radius: 35px;
+  font-size: 16px;
+  border: solid 2px white;
+  margin-right: 5px;
+}
+
+.button a {
+  color: white;
 }
 
 /* NAV ASIDE     */
@@ -32,6 +58,17 @@ aside {
   width: 250px;
   height: 100%;
   background-color: black;
+}
+
+#logo {
+  width: 170px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#colonna-nav {
+  display: flex;
+  flex-direction: column;
 }
 
 /* MAIN */

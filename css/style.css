@@ -1,0 +1,51 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  height: calc(100vh - 100px);
+}
+
+/* HEADER PREMIUM BUTTON */
+
+header {
+  float: right;
+  width: calc(100% - 250px);
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.89);
+}
+
+/* NAV ASIDE     */
+
+aside {
+  float: left;
+  width: 250px;
+  height: 100%;
+  background-color: black;
+}
+
+/* MAIN */
+
+main {
+  float: left;
+  width: calc(100% - 250px);
+  height: calc(100% - 100px);
+  background-color: rgb(20 25 34);
+}
+
+/* PLAYER */
+
+#player {
+  height: 100px;
+  background-color: rgb(40 40 40);
+}

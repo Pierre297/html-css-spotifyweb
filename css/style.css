@@ -153,40 +153,72 @@ footer {
 /* parte sinistra */
 
 #sinister {
-  font-size: 12px;
+  width: 250px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(163 163 163);
 }
 
 #sinister img {
-  width: 70px;
-  margin-top: 10px;
-  margin-left: 10px;
+  width: 50px;
 }
 
-#sinister h4 {
-  color: white;
-  display: inline-block;
+/* parte centrale */
+
+#music-player {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
 }
 
-#sinister span {
+#play-button {
+  width: 500px;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
   color: rgb(163 163 163);
 }
 
-#titolo-traccia {
-  display: inline-block;
-  margin-left: 10px;
-  vertical-align: middle;
-  margin-bottom: 55px;
+#play-button .fas {
+  margin: 0px 20px;
 }
 
-.icone {
-  display: inline-block;
-  font-size: 20px;
-  margin-left: 18px;
-  vertical-align: middle;
-  margin-bottom: 55px;
+#music-scoreboard {
+  width: 500px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   color: rgb(163 163 163);
 }
 
-.fa-heart {
-  margin-left: 7px;
+#music-score {
+  border: solid 2px rgb(163 163 163);
+  border-radius: 16%;
+  width: 70%;
+  display: inline-block;
+}
+
+/* parte destra */
+
+.scorebar {
+  border: solid 2px rgb(163 163 163);
+  border-radius: 16%;
+  width: 80px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#volume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#volume .fas {
+  margin-right: 10px;
+  color: rgb(163 163 163);
 }

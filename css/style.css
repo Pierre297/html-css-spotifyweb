@@ -138,6 +138,8 @@ main {
   background-color: rgb(20 25 34);
 }
 
+/* navigazione main */
+
 #nav-main ul {
   /* list-style-type: none; */
   color: rgb(163 163 163);
@@ -171,6 +173,43 @@ main {
   .hlist li {
     width: 50%;
   }
+}
+
+/* rubrica canzoni */
+
+.rec-played {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.rec-played h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.linea-canzoni {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.linea-canzoni img {
+  width: 180px;
+}
+
+.linea-canzoni h3 {
+  color: white;
+  text-align: center;
+}
+
+.linea-canzoni p {
+  color: rgb(163 163 163);
+  text-align: center;
 }
 
 /* PLAYER */

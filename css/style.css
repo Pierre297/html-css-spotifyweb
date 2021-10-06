@@ -177,6 +177,11 @@ main {
 
 /* rubrica canzoni */
 
+.sottotitoli {
+  color: rgb(163 163 163);
+  margin-top: 10px;
+}
+
 .rec-played {
   margin-top: 25px;
   margin-left: 20px;
@@ -206,6 +211,7 @@ main {
   color: white;
   width: 240px;
   text-align: center;
+  margin-top: 10px;
 }
 
 .linea-canzoni p {
@@ -220,11 +226,50 @@ main {
   margin-top: 30px;
 }
 
+/* seconda linea */
+
+.linea-canzoni2 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.linea-canzoni2 img {
+  width: 240px;
+}
+
+.linea-canzoni2 h3 {
+  color: white;
+  width: 240px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.linea-canzoni2 p {
+  color: rgb(163 163 163);
+  width: 240px;
+  text-align: center;
+}
+
+.second-line {
+  margin-top: 100px;
+}
+
+/* terza linea */
+
+.artisti {
+  border-radius: 50%;
+}
 /* PLAYER */
 
 #player {
   height: 100px;
   background-color: rgb(40, 40, 40);
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
 
 footer {

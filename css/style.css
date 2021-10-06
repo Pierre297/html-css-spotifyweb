@@ -199,17 +199,25 @@ main {
 }
 
 .linea-canzoni img {
-  width: 180px;
+  width: 240px;
 }
 
 .linea-canzoni h3 {
   color: white;
+  width: 240px;
   text-align: center;
 }
 
 .linea-canzoni p {
   color: rgb(163 163 163);
+  width: 240px;
   text-align: center;
+}
+
+.playlist-element {
+  width: calc(100% / 6);
+  height: 300px;
+  margin-top: 30px;
 }
 
 /* PLAYER */

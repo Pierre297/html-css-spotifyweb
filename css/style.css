@@ -51,6 +51,16 @@ header {
   color: white;
 }
 
+.button {
+  transition: all 1s;
+}
+
+.button:hover {
+  width: 280px;
+  height: 60px;
+  text-align: center;
+}
+
 /* NAV ASIDE     */
 
 aside {
@@ -96,12 +106,29 @@ aside {
 }
 
 #profile {
-  align-self: flex-end;
   margin-left: 20px;
   color: white;
+  line-height: 50px;
+}
+
+#barra {
+  border: solid 1px rgb(163 163 163);
+  width: 200px;
+}
+
+#profile i {
+  color: rgb(163 163 163);
+}
+
+#profile span {
+  color: rgb(163 163 163);
 }
 
 /* playlist */
+
+#playlist {
+  height: calc(93% - 100px);
+}
 
 #playlist h3 {
   color: white;
@@ -118,6 +145,7 @@ aside {
   text-align: center;
   font-size: 20px;
   display: inline-block;
+  cursor: pointer;
 }
 
 #playlist strong {
@@ -130,6 +158,11 @@ aside {
   margin-left: 20px;
   margin-top: 20px;
   line-height: 40px;
+  color: rgb(163 163 163);
+}
+
+#playlist li {
+  cursor: pointer;
 }
 
 /* MAIN */
@@ -168,6 +201,7 @@ main {
   padding: 10px;
   width: 100%;
   font-size: 13px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -208,7 +242,7 @@ main {
 }
 
 .linea-canzoni img {
-  width: 240px;
+  width: 190px;
 }
 
 .linea-canzoni h3 {
@@ -228,6 +262,16 @@ main {
   width: calc(100% / 6);
   height: 300px;
   margin-top: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1475px) {
+  .linea-canzoni {
+    flex-wrap: wrap;
+  }
+  .linea-canzoni .playlist-element {
+    width: 30%;
+  }
 }
 
 /* seconda linea */
@@ -241,7 +285,7 @@ main {
 }
 
 .linea-canzoni2 img {
-  width: 240px;
+  width: 190px;
 }
 
 .linea-canzoni2 h3 {
@@ -259,6 +303,16 @@ main {
 
 .second-line {
   margin-top: 100px;
+}
+
+@media screen and (max-width: 1475px) {
+  .second-line {
+    flex-wrap: wrap;
+    margin-top: 350px;
+  }
+  .linea-canzoni2 .playlist-element {
+    width: 30%;
+  }
 }
 
 /* terza linea */
@@ -296,6 +350,10 @@ footer {
   width: 50px;
 }
 
+#sinister h4 {
+  color: white;
+}
+
 /* parte centrale */
 
 #music-player {
@@ -310,11 +368,12 @@ footer {
   font-size: 23px;
   display: flex;
   justify-content: center;
-  color: rgb(163 163 163);
+  color: white;
 }
 
 #play-button .fas {
   margin: 0px 20px;
+  cursor: pointer;
 }
 
 #music-scoreboard {

@@ -69,9 +69,6 @@ aside {
 #colonna-nav {
   display: flex;
   flex-direction: column;
-}
-
-#colonna-nav {
   height: calc(100% - 100px);
   margin-top: 26px;
 }
@@ -96,6 +93,12 @@ aside {
   font-size: 19px;
   margin-left: 10px;
   vertical-align: middle;
+}
+
+#profile {
+  align-self: flex-end;
+  margin-left: 20px;
+  color: white;
 }
 
 /* playlist */
@@ -136,6 +139,7 @@ main {
   width: calc(100% - 250px);
   height: calc(100% - 100px);
   background-color: rgb(20 25 34);
+  overflow: scroll;
 }
 
 /* navigazione main */
